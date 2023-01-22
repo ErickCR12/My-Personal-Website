@@ -1,0 +1,156 @@
+/**************** TAG SELECTORS ****************/
+
+a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+a:hover{
+    color: #EAF6F6;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.2rem;
+    margin: 85px auto 0 auto; 
+}
+
+h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.2rem;
+    margin-top: 0;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #c2cdcd;
+    border-width: 10px;
+    margin: 50px auto 50px auto;
+    width: 5%;
+}
+
+p{
+    color: #40514E;
+    line-height: 2;
+}
+
+/*************** CLASS SELECTORS ***************/
+
+.h2-normal {
+    font-weight: normal;
+}
+
+.top-container {
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 78px;
+}
+
+.bottom-container {
+    background-color: #EAF6F6;
+    position: relative;
+    background-color: #66BFBF;
+    margin-top: 50px;
+    padding: 50px 0 50px 0;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 30px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+}
+
+.profile-img{
+    margin: 50px auto 50px auto;
+    height: 200px;
+}
+
+.personal-description {
+    margin: 0 auto 0 auto;
+    width: 30%;
+}
+
+.programming-gif {
+    float: left;
+    width: 25%;
+    margin-right: 30px;
+}
+
+.drawing-img {
+    float: right;
+    width: 25%;
+    margin-left: 30px;
+}
+
+.skill-row {
+    margin: 70px auto 70px auto;
+    text-align: left;
+    width: 50%;
+}
+
+.contact-me {
+    margin: 0 auto 0 auto;
+    width: 30%; 
+}
+
+.contact-p {
+    margin: 50px auto 50px auto;
+}
+
+.contact-btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: normal;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.contact-btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+.linkedin-icon {
+    width: 1.5rem;
+}
+
+.copyright {
+    color: #EAF6F6;
+}
